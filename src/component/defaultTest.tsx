@@ -1,10 +1,12 @@
 import React from 'react';
 
-export const DefaultTest = () => (
-    <div className='testClass'>
-        <h2>Test Value</h2>
+export class DefaultTest extends React.Component {
 
-        <p>Does this work?</p>
-    </div>
+    render() {
+        return (<div className='testClass'>
+            <h2>Test Value</h2>
 
-)
+            <p>Does this work?</p>
+        </div>
+    )}
+}
