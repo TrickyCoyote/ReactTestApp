@@ -1,11 +1,12 @@
 import React from 'react'
 
-export class DefaultTest2 extends React.Component {
-    render() {
+const DefaultTest2 = (): JSX.Element => {
     return(
         <div className='moreTest'>
             <h2>Let's do this!</h2>
             <p>We can try!</p>
         </div>
-    )}
+    )
 }
+
+export default DefaultTest2;
