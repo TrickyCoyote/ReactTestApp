@@ -8,8 +8,8 @@ const App = (): JSX.Element => {
     return(
         <div className="App">
             <Switch>
-                <Route exact path='/'><DefaultTest/></Route>
                 <Route exact path='/testValue'><DefaultTest2/></Route>
+                <Route exact path='/:test?'><DefaultTest/></Route>
                 <Route path='/'><Redirect to='/' /></Route>
             </Switch>
         </div>
