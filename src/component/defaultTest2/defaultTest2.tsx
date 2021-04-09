@@ -17,6 +17,7 @@ const DefaultTest2 = (): JSX.Element => {
             <CSSTransition
                 in={showElement}
                 timeout={300}
+                classNames="example"
                 unmountOnExit>
                 <div className='moreTest'>
                     <h2>Let's do this!</h2>
